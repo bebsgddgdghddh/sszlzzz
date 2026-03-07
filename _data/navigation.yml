@@ -11,10 +11,10 @@ main:
   - title: "创作"
     url: /publications/
     
-  - title: "Portfolio"
+  - title: "摄影简史"
     url: /portfolio/
         
-  - title: "Blog Posts"
+  - title: "评论/随笔"
     url: /year-archive/
     
   - title: "Guide"
