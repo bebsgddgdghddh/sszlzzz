@@ -13,10 +13,10 @@ title                    : "SSZLZZZ"
 title_separator          : "-"
 name                     : &name "SSZLZZZ"
 description              : &description "社交媒体广泛化催生了选择焦虑症, 所以人们选择重回BLOG时代"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : "https://bebsgddgdghddh.github.io/sszlzzz.github.io/" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : "https://bebsgddgdghddh.github.io/sszlzzz/" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "bebsgddgdghddh/sszlzzz.github.io"
+repository               : "bebsgddgdghddh/sszlzzz"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -81,55 +81,32 @@ author:
   youtube          : # Username
   zhihu            : # Username
 
-# Publication Category - The following the list of publication categories and their headings
+# Creation Category - The following the list of creation categories and their headings
 publication_category:
   books:
-    title: 'Books'
+    title: '蓝星图包'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'SillyTavern相关'    
   conferences:
-    title: 'Conference Papers'
+    title: '百合相关'
 
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
-breadcrumbs              : false # true, false (default)
-words_per_minute         : 160
+teaser                   : "tease.jpg" # filename of teaser fallback teaser image placed in /images/ for social media previews
+breadcrumbs              : true # true, false (default)
+words_per_minute         : 200
 future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
+read_more                : "enabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
-  disqus:
-    shortname            :
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
-  path                   : # blank (default) uses feed.xml
+  provider : "utterances" # 设置为使用 utterances
+  utterances:
+    repo: "bebsgddgdghddh/sszlzzz"
+    issue_term: "pathname"
+    theme: "github-dark"
 
 
 # SEO Related
-google_site_verification :
+google_site_verification : <meta name="google-site-verification" content="OsQ3qrIVv-vaMvd9USkrA_wb79l3zJewIiNY5Vh-1j8" />
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
