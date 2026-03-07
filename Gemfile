@@ -1,13 +1,9 @@
 source 'https://rubygems.org'
 
-group :jekyll_plugins do
-  gem 'jekyll'
-  gem 'jekyll-feed'
-  gem 'jekyll-sitemap'
-  gem 'jekyll-redirect-from'
-  gem 'jemoji'
-  gem 'webrick', '~> 1.8'
-end
+# 只需要这一行，它包含了 Jekyll 核心和 GitHub Pages 支持的所有标准插件
+gem 'github-pages', group: :jekyll_plugins
 
-gem 'github-pages'
-gem 'connection_pool', '2.5.0'
+gem 'wdm', '~> 0.1.0' if Gem.win_platform?
+
+# AcademicPages
+gem 'webrick', '~> 1.8'
