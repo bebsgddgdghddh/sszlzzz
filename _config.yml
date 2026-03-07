@@ -34,7 +34,7 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  X                : "https://x.com/l_pci6"
+  X                : &twitter "https://x.com/l_pci6"
   inspire-hep      : # URL
   impactstory      : # URL
   PIXIV            : "https://www.pixiv.net/users/109589172"
@@ -91,12 +91,11 @@ publication_category:
     title: '百合相关'
 
 # Site Settings
-teaser                   : "tease.jpg" # filename of teaser fallback teaser image placed in /images/ for social media previews
+teaser                   : &teaser "teaser.jpg" # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 future                   : true
 read_more                : "enabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
   provider : "utterances" # 设置为使用 utterances
   utterances:
@@ -119,21 +118,22 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 :  &teaser # Social media default site image
+og_description           : "僭越你的眼睛" # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-
+  type                   : "Person" # Person or Organization (defaults to Person)
+  name                   : "SSZLZZZ" # If the user or organization name differs from the site's name
+  links:
+    - "https://x.com/l_pci6"
+    - "https://github.com/bebsgddgdghddh/"
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  "google-analytics-4" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "G-YFW7HY3GLH"
 
 
 # Reading Files
@@ -197,16 +197,10 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
     output: true
     permalink: /:collection/:path/
 
@@ -231,15 +225,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _publications
   - scope:
       path: ""
@@ -257,15 +242,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+      comments: true
 
 
 # Sass/SCSS

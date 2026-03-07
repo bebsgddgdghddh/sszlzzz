@@ -10,12 +10,6 @@
 main:
   - title: "创作"
     url: /publications/
-
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
     
   - title: "Portfolio"
     url: /portfolio/
