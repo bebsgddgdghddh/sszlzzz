@@ -83,12 +83,12 @@ author:
 
 # Creation Category - The following the list of creation categories and their headings
 publication_category:
-  books:
-    title: '蓝星图包'
-  manuscripts:
-    title: 'SillyTavern相关'    
   conferences:
     title: '百合相关'
+  manuscripts:
+    title: 'SillyTavern相关'    
+  books:
+    title: '其它'
 
 # Site Settings
 teaser                   : &teaser "teaser.jpg" # filename of teaser fallback teaser image placed in /images/ for social media previews
