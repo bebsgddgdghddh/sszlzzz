@@ -1,5 +1,5 @@
 ---
-permalink: /terms/
+permalink: /terms
 title: "条款与隐私政策"
 modified: 2016-06-06
 ---
