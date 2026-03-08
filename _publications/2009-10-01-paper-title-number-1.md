@@ -1,14 +1,14 @@
 ---
-title: "Paper Title Number 1"
+title: "辩证法可否用来碎大石？(La dialectique peut-elle casser des briques?) (1973) 影视分享"
 collection: publications
-category: manuscripts
+category: books
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+excerpt: '(MEGA网盘)想象一下，一部功夫片里，武打高手们高谈阔论情境主义格言，讲述如何战胜异化，而颓废的官僚们则喋喋不休地嘲讽着停滞不前的革命。'
+date: 26-03-08
+venue: '法国'
+slidesurl: 'https://mega.nz/folder/KzxCibJD#yyE2lxm5GW6DXeipFh-rSg'
+paperurl: ''
+bibtexurl: ''
+citation: ''
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+(MEGA网盘)想象一下，一部功夫片里，武打高手们高谈阔论情境主义格言，讲述如何战胜异化，而颓废的官僚们则喋喋不休地嘲讽着停滞不前的革命。这就是勒内·维内对一部中国武打片的颠覆性改编。作为一位颇具影响力的情境主义导演，勒内·维内剥离了一部平庸的香港电影的配乐，并加入了自己犀利无比的对白。这部影片以精彩、尖锐而又喧闹的方式批判了社会主义的失败，片中武打高手们用德波、赖希等人的理论反击意识形态的冲击。
