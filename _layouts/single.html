@@ -59,7 +59,7 @@ layout: default
               <a href="{{ page.slidesurl }}">Google Drive</a>
             {% endif %}
 
-            {% if (page.paperurl or page.slidesurl) and page.bibtexurl %} | {% endif %}
+            {% if page.paperurl and page.bibtexurl %} | {% elsif page.slidesurl and page.bibtexurl %} | {% endif %}
 
             {% if page.bibtexurl %}
               <a href="{{ page.bibtexurl }}">Onedrive</a>

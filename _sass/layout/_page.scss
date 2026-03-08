@@ -62,9 +62,7 @@
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;
-
     text-indent: 2em; /* 让文章内容区域的所有段落首行缩进 */
-}
 
     /* sibling indentation*/
     @if $paragraph-indent == true {

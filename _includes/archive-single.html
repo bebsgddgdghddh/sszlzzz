@@ -64,7 +64,7 @@
           <a href="{{ post.slidesurl }}">Google Drive</a>
         {% endif %}
 
-        {% if (post.paperurl or post.slidesurl) and post.bibtexurl %} | {% endif %}
+        {% if post.paperurl and post.bibtexurl %} | {% elsif post.slidesurl and post.bibtexurl %} | {% endif %}
 
         {% if post.bibtexurl %}
           <a href="{{ post.bibtexurl }}">Onedrive</a>
