@@ -117,12 +117,13 @@
 
   /* social buttons */
 
+  /* social buttons */
+
   $social:
   (bluesky, $bluesky-color),
+  (discord, #5865F2),
   (facebook, $facebook-color),
-  (google-plus, $google-plus-color),
-  (linkedin, $linkedin-color),
-  (mastodon, $mastodon-color),
+  (mastodon, #6364FF),
   (twitter, $twitter-color); 
 
   @each $socialnetwork, $color in $social {
