@@ -1,5 +1,5 @@
 ---
-permalink: /terms
+permalink: /terms/
 title: "条款与隐私政策"
 modified: 2016-06-06
 ---
@@ -7,33 +7,33 @@ modified: 2016-06-06
 {% include base_path %}
 {% include toc %}
 
-## Privacy Policy
+## 隐私政策
 
-The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used.
+访客的隐私对我至关重要。本隐私政策概述了本站接收和收集的个人信息类型及其使用方式。
 
-First and foremost, I will never share your email address or any other personal information to anyone without your direct consent.
+首先，**未经您的直接同意，我绝不会将您的电子邮件地址或任何其他个人信息分享给任何人。**
 
-### Log Files
+### 日志文件
 
-Like many other websites, this site uses log files to help learn about when, from where, and how often traffic flows to this site. The information in these log files include:
+与许多其他网站一样，本站使用日志文件来帮助了解流量何时、从何处以及多久流向本站。这些日志文件中的信息包括：
 
-* Internet Protocol addresses (IP)
-* Types of browser
-* Internet Service Provider (ISP)
-* Date and time stamp
-* Referring and exit pages
-* Number of clicks
+* 互联网协议地址 (IP)
+* 浏览器类型
+* 互联网服务提供商 (ISP)
+* 日期和时间戳
+* 引用页和退出页
+* 点击次数
 
-All of this information is not linked to anything that is personally identifiable.
+所有这些信息都不与任何能够识别个人身份的信息相关联。
 
-### Cookies and Web Beacons
+### Cookie 和网络信标
 
-When you visit this site "convenience" cookies are stored on your computer when you submit a comment to help you log in faster to [Disqus](https://disqus.com) the next time you leave a comment.
+当您访问本站并提交评论时，您的计算机上会存储“便利性” Cookie，以便您下次发表评论时能更快登录 [Disqus](https://disqus.com)。
 
-Third-party advertisers may also place and read cookies on your browser and/or use web beacons to collect information. This site has no access or control over these cookies. You should review the respective privacy policies on any and all third-party ad servers for more information regarding their practices and how to opt-out.
+第三方广告商也可能在您的浏览器上放置和读取 Cookie 和/或使用网络信标来收集信息。本站无法访问或控制这些 Cookie。您应该查阅相关第三方广告服务器各自的隐私政策，以获取关于其实践做法以及如何选择退出的更多信息。
 
-If you wish to disable cookies, you may do so through your web browser options. Instructions for doing so can be found on the specific web browsers' websites.
+如果您希望禁用 Cookie，可以通过您的网络浏览器选项进行设置。关于如何操作的具体说明可以在各网络浏览器的官方网站上找到。
 
-#### Google Analytics
+#### Google Analytics (谷歌分析)
 
-Google Analytics is a web analytics tool I use to help understand how visitors engage with this website. It reports website trends using cookies and web beacons without identifying individual visitors. You can read [Google Analytics Privacy Policy](https://www.google.com/analytics/learn/privacy.html).
+Google Analytics 是我用来帮助了解访客如何与本网站互动的网络分析工具。它使用 Cookie 和网络信标报告网站趋势，而不会识别个人访客。您可以阅读 [Google Analytics 隐私政策](https://www.google.com/analytics/learn/privacy.html) 了解详情。
