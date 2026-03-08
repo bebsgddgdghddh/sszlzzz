@@ -9,7 +9,7 @@ redirect_from:
 
 * Not wrapped in a paragraph
 * Wrapped in a paragraph due to the following blank line.
-
+^
 * Also wrapped in a paragraph due to the
   following blank line and the EOB marker.
 
