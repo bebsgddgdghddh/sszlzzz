@@ -1,17 +1,47 @@
 {% include base_path %}
 
-{% if site.author.github != true %}
 <div class="page__footer-follow">
   <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-    {% endif %}
-    {% if site.author.github %}
-      <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
-    {% endif %}
+    <li><strong>友情链接：</strong></li>
+
+    <li>
+      <a href="https://bbs.yamibo.com/" target="_blank" rel="noopener noreferrer">
+         300论坛
+      </a>
+    </li>
+
+    <li>
+      <a href="https://yurinavi.com/" target="_blank" rel="noopener noreferrer">
+         百合ナビ
+      </a>
+    </li>
+
+    <li>
+      <a href="https://baihehub.com/" target="_blank" rel="noopener noreferrer">
+         百合Hub
+      </a>
+    </li>
+
+    <li>
+      <a href="https://yuri.website/" target="_blank" rel="noopener noreferrer">
+         Yurifans
+      </a>
+    </li>
+
+    <li>
+      <a href="https://tempyuriradiohouse.blogspot.com/" target="_blank" rel="noopener noreferrer">
+         Yuri Radio Drama House
+      </a>
+    </li>
+    
+    <li>
+      <a href="https://sugarnotgreasy.blogspot.com/?m=1" target="_blank" rel="noopener noreferrer">
+         吃糖不腻
+      </a>
+    </li>
+
   </ul>
 </div>
-{% endif %}
 
 <div class="page__footer-copyright">
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>.<br />
